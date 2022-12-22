@@ -1,0 +1,1638 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@media(max-width: 1700px) {
+    .container {
+        width: 1440px;
+    }
+
+    .container_min {
+        max-width: 1440px;
+    }
+
+    .collection__image-img {
+        display: none;
+    }
+
+    .collection__image-img2 {
+        display: block;
+        height: 530px;
+    }
+
+    .collection__item {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .collection__item_one {
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    }
+
+    .collection__item_one .collection__item-info {
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+    }
+
+    .collection__item_two {
+        direction: ltr;
+        text-align: left;
+    }
+
+    .collection__item-icon {
+        margin: 0 !important;
+        -webkit-transform: translate(0) !important;
+        -ms-transform: translate(0) !important;
+        transform: translate(0) !important;
+        margin-right: 24px !important;
+    }
+
+    h2 {
+        margin-bottom: 28px;
+    }
+
+    .triggers-list {
+        margin-top: 28px;
+    }
+
+    .collection__image {
+        width: 50%;
+    }
+
+    .collection__item-icon img {
+        width: 100%;
+    }
+
+    .collection__item_one {
+        top: -45px;
+        left: 120px;
+    }
+
+    .collection__item_one .collection__item-icon {
+        min-width: 59px;
+    }
+
+    .collection__item_two {
+        left: 260px;
+        top: 95px;
+    }
+
+    .collection__item_two .collection__item-icon {
+        width: 64px;
+        margin-right: 32px !important;
+    }
+
+    .collection__item_three {
+        left: 300px;
+        top: 215px;
+        bottom: auto;
+        text-align: left;
+    }
+
+    .collection__item_three .collection__item-icon {
+        width: 59px;
+    }
+
+    .collection__item_foure {
+        left: 250px;
+        top: 350px;
+        bottom: auto;
+        text-align: left;
+    }
+
+    .collection__item_foure .collection__item-icon {
+        width: 49px;
+    }
+
+    .collection__item_five {
+        left: 130px;
+        top: auto;
+        bottom: 45px;
+        text-align: left;
+    }
+
+    .collection__item_five .collection__item-icon {
+        width: 43px;
+    }
+
+    .advantages-slider {
+        width: 900px;
+    }
+
+    .advantages .collection__info {
+        width: 500px;
+    }
+
+    .privileges {
+        overflow: hidden;
+    }
+
+    .privileges__row {
+        gap: 32px;
+    }
+
+    .privileges .privileges__img {
+        position: relative;
+    }
+
+    .privileges .privileges__img img {
+        position: absolute;
+        width: 794px;
+    }
+
+    .advantages .collection__info {
+        padding-right: 25px;
+    }
+
+    .deflationary__item_two {
+        padding-left: 0;
+    }
+
+    .deflationary__item_two .deflationary__img img {
+        right: 90px !important;
+    }
+
+    .deflationary__item_two .deflationary__img::after {
+        right: 0;
+    }
+
+    .deflationary__item_two .deflationary__img::before {
+        left: 20%;
+    }
+
+    .deflationary__item_two .deflationary__img::after {
+        right: 150px;
+    }
+
+    .deflationary__item_two .deflationary__img::before {
+        left: 10%;
+    }
+
+    .privileges .privileges__img img {
+        //*bottom: 0;
+        width: 129%;*//
+    }
+
+    .opportunities {
+        padding-bottom: 130px;
+    }
+
+    .nft-slider {
+        zoom: 0.94 !important;
+    }
+
+    .first-screen__info {
+        margin-right: 0;
+        width: 650px;
+    }
+
+    .first-screen__img>img {
+        height: 850px;
+    }
+
+    .first-screen__img {
+        height: 850px;
+    }
+
+    .first-screen {
+        background-position: center bottom;
+    }
+}
+
+@media(max-width: 1440px) {
+    .container {
+        width: 1110px;
+    }
+
+    .container_min {
+        max-width: 1110px;
+    }
+
+    .collection__info {
+        padding-left: 0;
+    }
+
+    .collection__info {
+        width: 43%;
+    }
+
+    .collection__image {
+        width: 57%;
+    }
+
+    .collection__item_foure {
+        top: 330px;
+    }
+
+    .advantages .container {
+        width: 1314px;
+    }
+
+    .swiper {
+        zoom: 0.8;
+    }
+
+    .advantages-slider {
+        width: 700px;
+    }
+
+    .swiper-slide .blue-list {
+        top: 170px !important;
+        right: 5px !important;
+    }
+
+    .viceroy-card .blue-list {
+        top: 130px !important;
+    }
+
+    .swiper-slide-active.admiral-card img {
+        -webkit-transform: scale(1) translateX(-50px);
+        -ms-transform: scale(1) translateX(-50px);
+        transform: scale(1) translateX(-50px);
+    }
+
+    .swiper-slide-active.viceroy-card img {
+        -webkit-transform: scale(1) translateX(-150px);
+        -ms-transform: scale(1) translateX(-150px);
+        transform: scale(1) translateX(-150px);
+    }
+
+    .mentat-card .blue-list {
+        right: 5px !important;
+    }
+
+    .swiper-slide-active.mentat-card img {
+        -webkit-transform: scale(1) translateX(-20px);
+        -ms-transform: scale(1) translateX(-20px);
+        transform: scale(1) translateX(-20px)
+    }
+
+    .swiper-slide-active.general-card img {
+        -webkit-transform: scale(1) translateX(-50px);
+        -ms-transform: scale(1) translateX(-50px);
+        transform: scale(1) translateX(-50px)
+    }
+
+    .agent-card .blue-list, .lady-card .blue-list {
+        right: 10px !important;
+    }
+
+    .swiper-slide-active.lady-card img {
+        -webkit-transform: scale(1) translateX(-20px);
+        -ms-transform: scale(1) translateX(-20px);
+        transform: scale(1) translateX(-20px)
+    }
+
+    .deflationary .deflationary-img {
+        padding-left: 0;
+        margin-left: -90px;
+    }
+
+    .deflationary__item_two {
+        padding-left: 100px;
+    }
+
+    .deflationary__item_two .deflationary__img img {
+        right: 30px;
+    }
+
+    .deflationary .collection__info {
+        width: 500px;
+        padding-right: 25px;
+    }
+
+    .deflationary__item_one {
+        gap: 0 70px;
+    }
+
+    .deflationary__item_two {
+        padding-left: 80px;
+    }
+
+    .deflationary__item_three .deflationary__info {
+        margin-left: 70px;
+    }
+
+    .advantages .collection__info {
+        padding-right: 0;
+        width: 450px;
+    }
+
+    .subtitle br {
+        display: none;
+    }
+
+    .advantages-slider {
+        width: 800px;
+    }
+
+    .nft-slider {
+        zoom: 0.8 !important;
+    }
+
+    .owl-item.big .blue-list {
+        zoom: 1.1 !important;
+    }
+
+    .nft-item_one .blue-list {
+        right: -282px;
+        top: 90px;
+    }
+
+    .advantages-slider {
+        padding-top: 120px;
+    }
+
+    .nft-item_two .blue-list {
+        top: 90px;
+        right: -290px;
+    }
+
+    .nft-item_three .blue-list, .nft-item_foure .blue-list, .nft-item_five .blue-list, .nft-item_six .blue-list, .nft-item_seven .blue-list {
+        top: 90px;
+        right: -270px;
+    }
+
+    .nft-item_three .main-img {
+        right: -60px;
+    }
+
+    .nft-item_foure .main-img {
+        right: -9px;
+    }
+
+    .nft-item_five .main-img {
+        right: -97px;
+    }
+
+    .nft-item_six .main-img {
+        right: -50px;
+    }
+
+    .owl-next, .owl-prev {
+        top: 45%;
+    }
+
+    .first-screen .container {
+        width: 1360px;
+    }
+
+    .first-screen__info {
+        margin-top: 0;
+    }
+
+    .first-screen__img>img, .first-screen__img {
+        height: 750px;
+    }
+    .privileges .before-img{
+        right: -200px;
+    }
+}
+
+@media(max-width: 1439px) {
+    .advantages .container {
+        width: 1110px;
+        padding: 0 15px;
+    }
+
+    .first-screen .container {
+        width: 1200px;
+    }
+
+    .first-screen__info {
+        width: 500px;
+    }
+
+    .number-text {
+        width: 115px;
+    }
+
+    .total-row p {
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .total-row {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        text-align: left;
+    }
+
+    .advantages h2 br {
+        display: none;
+    }
+
+    .advantages-slider {
+        padding-left: 0;
+        transform: translateX(-90px);
+    }
+
+    .advantages .collection__info {
+        padding-right: 0;
+    }
+
+    .subtitle br {
+        display: none;
+    }
+
+    .nft-slider {
+        zoom: 1 !important;
+    }
+
+    .owl-item.big .blue-list {
+        zoom: 1 !important;
+    }
+
+    .advantages-slider {
+        width: 1000px;
+        zoom: 0.9 !important;
+    }
+
+    .nft-slider {
+        zoom: 1 !important;
+    }
+
+    .advantages-row {
+        gap: 0;
+    }
+
+    .owl-item.big .blue-list {
+        position: static;
+        margin-top: 100px;
+    }
+
+    .owl-item.big .nft-item_one .main-img {
+        bottom: 150px;
+    }
+
+    .owl-item.big .nft-item_two .main-img {
+        bottom: 70px;
+    }
+
+    .owl-item.big .nft-item_three .main-img {
+        bottom: 155px;
+        right: -100px;
+    }
+
+    .owl-item.big .nft-item_foure .main-img {
+        bottom: 180px;
+        right: -45px;
+    }
+
+    .owl-item.big .nft-item_five .main-img {
+        bottom: 178px;
+        right: -132px;
+    }
+
+    .owl-item.big .nft-item_six .main-img {
+        bottom: 178px;
+        right: -89px;
+    }
+
+    .owl-item.big .nft-item_seven .main-img {
+        bottom: 180px;
+    }
+
+    .first-screen__img>img, .first-screen__img {
+        height: 700px;
+    }
+
+    .first-screen__info {
+        padding-right: 30px;
+        width: 550px;
+    }
+
+    .total-row p{
+        font-size: 19px;
+    }
+    .total-number{
+        font-size: 19px;
+    }
+    .btn{
+        padding: 19px 44px;
+    }
+    .number-text{
+        width: 135px;
+    }
+    .total-row{
+        flex-wrap: nowrap;
+    }
+    .total-row p{
+        width: auto;
+        margin-right: 8px;
+    }
+    .buy-section .total-row p, .buy-section .total-row span{
+        font-size: 24px;
+    }
+    .sub-row span{
+        font-size: 18px;
+    }
+    .btn-icon{
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 1199px) {
+    .first-screen__row {
+        display: grid;
+        grid-template-columns: 100%;
+        justify-content: center;
+    }
+
+    .first-screen__info {
+        width: 100%;
+        grid-row-start: 1;
+        padding-top: 140px;
+        margin-bottom: 70px;
+    }
+
+    .buy-row {
+        max-width: 690px;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+
+    .first-screen__img>img {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .first-screen .container {
+        width: 1024px;
+    }
+
+    .number-text {
+        width: 180px;
+    }
+    .first-screen__info{
+        padding-right: 0 !important;
+    }
+    .first-screen__info{
+        grid-row-start: 3;
+    }
+    .fs-header-one{
+        display: block;
+        text-align: center;
+        padding-top: 65px;
+    }
+    .fs-header-two{
+        display: none;
+    }
+    .first-screen__info{
+        padding-top: 40px;
+    }
+}
+
+@media(max-width: 1111px) {
+    .container {
+        width: 1024px;
+        padding: 0 15px;
+    }
+
+    .advantages .container {
+        width: 1024px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .subtitle br {
+        display: none;
+    }
+
+    .triggers-list__desc {
+        font-size: 18px;
+    }
+
+    .triggers-list__title {
+        font-size: 18px;
+    }
+
+    .collection__image {
+        padding-bottom: 50px;
+    }
+
+    .collection__item_five {
+        bottom: -10px;
+    }
+
+    .collection__info {
+        padding-left: 30px;
+    }
+
+    .collection__item-title {
+        font-size: 18px;
+    }
+
+    .swiper-slide .blue-list {
+        position: static;
+    }
+
+    .swiper-slide {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .swiper-slide .blue-list {
+        width: 100%;
+        margin-top: -40px;
+        position: relative;
+        top: auto !important;
+        left: 50%;
+        -webkit-transform: translateX(-20%);
+        -ms-transform: translateX(-20%);
+        transform: translateX(-20%);
+    }
+
+    .privileges__row {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    .privileges .collection__info {
+        padding-left: 0;
+    }
+
+    .privileges .privileges__img img {
+        position: relative;
+        width: 100%;
+    }
+
+    .advantages .collection__info {
+        padding-right: 0px;
+    }
+
+    .deflationary {
+        padding-top: 100px;
+    }
+
+    .deflationary-row {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .deflationary .collection__info {
+        width: 100%;
+        padding: 0;
+    }
+
+    .deflationary .deflationary-img {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .deflationary__item_two .deflationary__img::before {
+        right: 0;
+        left: auto;
+    }
+
+    .deflationary .collection__info {
+        padding-top: 240px;
+    }
+
+    .advantages-row {
+        -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+    }
+
+    .advantages-slider {
+        width: 100%;
+    }
+
+    .advantages-row .collection__info {
+        width: 100%;
+    }
+
+    .swiper {
+        zoom: 1;
+    }
+
+    .advantages-slider {
+        zoom: 1 !important;
+        transform: translateX(0);
+    }
+
+    /*  */
+    .owl-item.big .nft-item_one .main-img {
+        bottom: 145px;
+    }
+
+    .owl-item.big .nft-item_two .main-img {
+        bottom: 70px;
+    }
+
+    .owl-item.big .nft-item_three .main-img {
+        bottom: 150px;
+        right: -62px;
+    }
+
+    .owl-item.big .nft-item_foure .main-img {
+        bottom: 180px;
+        right: -8px;
+    }
+
+    .owl-item.big .nft-item_five .main-img {
+        bottom: 178px;
+        right: -100px;
+    }
+
+    .owl-item.big .nft-item_six .main-img {
+        bottom: 178px;
+        right: -45px;
+    }
+
+    .owl-item.big .nft-item_seven .main-img {
+        bottom: 180px;
+    }
+
+}
+
+@media(max-width: 1023px) {
+    .container {
+        width: 768px;
+    }
+
+    .advantages .container {
+        width: 768px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .subtitle {
+        font-size: 16px;
+    }
+
+    .collection__image-img2 {
+        display: none;
+    }
+
+    .collection__item {
+        position: static;
+    }
+
+    .collection__row {
+        gap: 32px;
+    }
+
+    .collection__row>div {
+        width: 50%;
+    }
+
+    .collection__item_one .collection__item-icon {
+        min-width: 48px;
+    }
+
+    .collection__item-icon {
+        width: 48px !important;
+        margin-right: 17px !important;
+    }
+
+    .collection__item-title {
+        font-size: 18px;
+    }
+
+    .collection__item-description {
+        font-size: 15px;
+    }
+
+    .blue-list li {
+        font-size: 15px;
+    }
+
+    .collection__item_two ul {
+        padding-right: 0 !important;
+        padding-left: 24px !important;
+    }
+
+    .collection__item {
+        margin-bottom: 32px;
+    }
+
+    .collection__item:last-of-type {
+        margin-bottom: 0;
+    }
+
+    .collection__item_two .collection__item-icon {
+        margin-right: 17px !important;
+    }
+
+    .collection__image {
+        padding-bottom: 32px;
+    }
+
+    .swiper {
+        zoom: 0.7;
+        margin-top: 65px;
+        width: 100%;
+    }
+
+    .swiper-slide {
+        opacity: 0;
+    }
+
+    .swiper-slide-next, .swiper-slide-prev {
+        opacity: 0.4;
+    }
+
+    .swiper-slide-active {
+        opacity: 1;
+    }
+
+    .swiper-slide .blue-list {
+        zoom: 1.3;
+    }
+
+    .advantages-slider {
+        padding-left: 0;
+    }
+
+    .container_min {
+        max-width: 768px;
+    }
+
+    .opportunities {
+        padding-bottom: 0;
+    }
+
+    .accordion__header h3 {
+        font-size: 18px;
+    }
+
+    .accordion-panel {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .accordion__body p {
+        font-size: 16px;
+    }
+
+    .accordion__body {
+        padding-bottom: 0;
+    }
+
+    .advantages-slider {
+        padding-top: 90px;
+    }
+
+    .owl-item .nft-item {
+        padding-bottom: 0;
+    }
+
+    /* 1111 */
+    .owl-item.big .nft-item_one .main-img {
+        bottom: 72px;
+    }
+
+    .owl-item.big .nft-item_two .main-img {
+        bottom: 00px;
+    }
+
+    .owl-item.big .nft-item_three .main-img {
+        bottom: 80px;
+        right: -114px;
+    }
+
+    .owl-item.big .nft-item_foure .main-img {
+        bottom: 105px;
+        right: -57px;
+    }
+
+    .owl-item.big .nft-item_five .main-img {
+        bottom: 105px;
+        right: -145px;
+    }
+
+    .owl-item.big .nft-item_six .main-img {
+        bottom: 105px;
+        right: -95px;
+    }
+
+    .owl-item.big .nft-item_seven .main-img {
+        bottom: 180px;
+    }
+
+    .blue-list li {
+        font-size: 16px;
+    }
+
+    .first-screen .container {
+        width: 768px;
+    }
+    .buy-section .buy-row{
+        flex-wrap: wrap;
+    }
+    .buy-section .btn-row{
+        margin-top: 32px;
+    }
+}
+@media(max-width: 768px){
+    .first-screen{
+        padding-right: 0;
+        padding-top: 0;
+    }
+    .first-screen__info{
+        padding-right: 0;
+    }
+    .before-img{
+        display: none !important;
+    }
+    .first-screen__info{
+        padding-top: 0 !important;
+    }
+    .btn-row{
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+    .btn-row .btn{
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 21px;
+    }
+    .fs__btn h3{
+        font-size: 24px;
+    }
+    .fs__triggers{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .sub-row {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .sub-row span{
+        width: 100%;
+        margin-right: 0;
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 14px;
+    }
+    .fs__triggers p{
+        font-size: 16px;
+    }
+    .fs__trigger{
+        text-align: left;
+    }
+}
+@media(max-width: 767px) {
+
+    .container {
+        width: 480px !important;
+    }
+
+    .container_min {
+        max-width: 480px;
+    }
+
+    .collection__row {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .collection__row>div {
+        width: 100%;
+    }
+
+    .collection {
+        padding-top: 50px;
+    }
+
+    .collection__image {
+        padding-bottom: 0;
+    }
+
+    .advantages .collection__info {
+        padding-left: 40px;
+    }
+
+    .collection {
+        padding-bottom: 0;
+    }
+
+    .collection__item-title img {
+        display: block;
+        margin-left: 15px;
+    }
+
+    .collection .collection__item-title {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .swiper-slide-active img {
+        -webkit-transform: translateX(0) !important;
+        -ms-transform: translateX(0) !important;
+        transform: translateX(0) !important;
+    }
+
+    .swiper {
+        zoom: 0.4;
+    }
+
+    .swiper-slide .blue-list {
+        zoom: 2;
+        margin-top: 10px;
+        left: 45%;
+    }
+
+    .privileges .collection__info {
+        padding-left: 40px;
+    }
+
+    .privileges .privileges__img img {
+        width: 140%;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+
+    .before-img {
+        display: none;
+    }
+
+    .deflationary__item {
+        gap: 0;
+        display: block;
+    }
+
+    .deflationary__item .deflationary__img {
+        position: relative;
+    }
+
+    .deflationary__item .deflationary__img img {
+        left: auto;
+        top: auto;
+        left: auto;
+        bottom: -350px;
+        z-index: 0;
+    }
+
+    .deflationary__item_one {
+        padding-bottom: 270px;
+    }
+
+    .deflationary__item_one .deflationary__img::before {
+        left: 50%;
+        top: auto;
+        bottom: 30px;
+    }
+
+    .deflationary {
+        padding-top: 70px;
+    }
+
+    .deflationary__item_one .deflationary__info {
+        margin-top: 0;
+    }
+
+    .deflationary__info h3 {
+        font-size: 18px;
+    }
+
+    .deflationary__info p {
+        font-size: 15px;
+    }
+
+    .deflationary__item_one .deflationary__img::after {
+        -webkit-transform: rotate(65deg) scale(0.6);
+        -ms-transform: rotate(65deg) scale(0.6);
+        transform: rotate(65deg) scale(0.6);
+        left: 100px;
+        right: 25px;
+    }
+
+    .deflationary__img::before {
+        display: none;
+    }
+
+    .deflationary__item_one .deflationary__info {
+        width: auto;
+    }
+
+    .deflationary__item_two {
+        padding-left: 0;
+        margin-top: 40px;
+        padding-bottom: 350px;
+    }
+
+    .deflationary__item_two .deflationary__img::after {
+        -webkit-transform: rotate(70deg) scale(0.6);
+        -ms-transform: rotate(70deg) scale(0.6);
+        transform: rotate(70deg) scale(0.6);
+        right: 250px;
+        top: 65px;
+    }
+
+    .deflationary__item_three {
+        padding-bottom: 420px;
+        margin-top: 40px;
+    }
+
+    .deflationary__item_three .deflationary__img img {
+        bottom: auto;
+        top: 40px;
+        width: 150%;
+        left: -250px;
+        right: auto;
+    }
+
+    .deflationary__item_three .deflationary__info {
+        margin-left: 0;
+    }
+
+    .deflationary__item_three .deflationary__img::after {
+        -webkit-transform: rotate(70deg) scale(0.6);
+        -ms-transform: rotate(70deg) scale(0.6);
+        transform: rotate(70deg) scale(0.6);
+        top: -90px;
+        z-index: -1;
+    }
+
+    .deflationary .collection__info {
+        padding-top: 50px;
+    }
+
+    .privileges .collection__info {
+        padding-left: 0;
+    }
+
+    .deflationary .deflationary-row {
+        -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+    }
+
+    .deflationary .deflationary-img {
+        margin-top: 65px;
+    }
+
+    .opportunities {
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
+
+    .accordion__header h3 {
+        width: 90%;
+    }
+
+    .accordion__body h4 {
+        font-size: 20px;
+    }
+
+    .buy-section__item h3 {
+        font-size: 15px;
+        margin-top: 0px;
+    }
+
+    .buy-section__row {
+        margin-top: 80px;
+    }
+
+    .buy-section__item {
+        width: 45%;
+    }
+
+    .social-list li {
+        margin: 0 18px;
+    }
+
+    .page-list {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .page-list li {
+        padding: 0;
+        width: 100%;
+        border: none;
+    }
+
+    .first-footer-item {
+        margin-bottom: 69px;
+    }
+
+    .page-list {
+        margin-top: 35px;
+        margin-bottom: 34px;
+    }
+
+    .copyright {
+        margin-bottom: 35px;
+    }
+
+    .page-list li {
+        margin-bottom: 25px;
+    }
+
+    .page-list li:last-of-type {
+        margin-bottom: 0;
+    }
+
+    .buy-section__row {
+        gap: 60px 0;
+    }
+
+    .buy-section__item {
+        width: 45%;
+        margin-bottom: 0;
+    }
+
+    .footer {
+        padding-top: 100px;
+        background-position-y: -45px;
+    }
+
+    .buy-section {
+        padding-top: 90px;
+    }
+
+    .advantages-slider {
+        padding-top: 90px;
+    }
+
+    .little-left, .little-right {
+        opacity: 0 !important;
+    }
+
+    .nft-slider {
+        zoom: 0.7 !important;
+    }
+
+    .nft-item .blue-list {
+        width: 400px;
+    }
+
+    .nft-item li {
+        font-size: 22px !important;
+    }
+
+    .owl-next {
+        right: 0;
+    }
+
+    .owl-prev {
+        left: 0;
+    }
+
+    .owl-next, .owl-prev {
+        width: 20px;
+        height: 29px;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+    }
+
+    /* ----------------------------------------------------- */
+    .medium-left .nft-item {
+        transform: translateX(-100px) scale(0.55) !important;
+    }
+
+    .medium-right .nft-item {
+        transform: translateX(100px) scale(0.55) !important;
+    }
+
+    .owl-item.big .nft-item_one .main-img {
+        bottom: 95px;
+    }
+
+    .owl-item.big .nft-item_two .main-img {
+        bottom: 00px;
+    }
+
+    .owl-item.big .nft-item_three .main-img {
+        bottom: 105px;
+        right: -135px;
+    }
+
+    .owl-item.big .nft-item_foure .main-img {
+        bottom: 125px;
+        right: -75px;
+    }
+
+    .owl-item.big .nft-item_five .main-img {
+        bottom: 123px;
+        right: -165px;
+    }
+
+    .owl-item.big .nft-item_six .main-img {
+        bottom: 125px;
+        right: -115px;
+    }
+
+    .owl-item.big .nft-item_seven .main-img {
+        bottom: 130px;
+    }
+
+    h1 {
+        font-size: 41px;
+    }
+
+    .fs-logo .fs-label {
+        font-size: 16px
+    }
+
+    .fs-logo img {
+        width: 32px;
+        margin-bottom: 12px;
+    }
+
+    h1 {
+        line-height: 40px;
+    }
+
+    .buy-row {
+        flex-wrap: wrap;
+    }
+
+    .number {
+        width: 100%;
+        margin-bottom:15px ;
+    }
+    .number-text{
+        width: 100%;
+    }
+    .buy-row .btn{
+        width: 100%;
+    }
+    .total-row{
+        margin-bottom: 27px;
+    }
+    .total-row p{
+        width: auto;
+        margin-right: 12px;
+        font-size: 18px;
+    }
+    .total-number{
+        font-size: 18px;
+    }
+    .buy-row .btn::before{
+        width: 100%;
+    }
+    .total-row{
+        flex-wrap: nowrap;
+        width: 100%;
+        justify-content: center;
+    }
+    .first-screen__info{
+        padding-right: 0;
+    }
+    .first-screen__img>img, .first-screen__img{
+        height: 500px;
+    }
+
+}
+
+@media(max-width: 479px) {
+    .m-d-none-400{
+        display: none;
+    }
+    .container {
+        width: 375px !important;
+    }
+
+    .container_min {
+        max-width: 375px;
+    }
+
+    .collection__info {
+        padding-left: 15px !important;
+    }
+
+    .triggers-list li::before {
+        left: -15px;
+    }
+
+    .before-img {
+        display: none;
+    }
+
+    h2 br {
+        display: none;
+    }
+
+    .br-mob {
+        display: block;
+    }
+
+    .deflationary__item_two .deflationary__img::after {
+        right: 150px;
+    }
+
+    .deflationary__item_two .deflationary__img img {
+        right: 0 !important;
+    }
+
+    .deflationary__item_three .deflationary__img img {
+        left: -180px;
+    }
+
+    .deflationary__item_three .deflationary__img::after {
+        left: 60px;
+        -webkit-transform: rotate(80deg) scale(0.6);
+        -ms-transform: rotate(80deg) scale(0.6);
+        transform: rotate(80deg) scale(0.6);
+    }
+
+    .deflationary__item_three {
+        padding-bottom: 340px;
+    }
+
+    .nft-slider {
+        zoom: 0.6 !important;
+    }
+
+    .nft-item li {
+        font-size: 25px !important;
+    }
+
+    /*  */
+    .owl-item.big .nft-item_one .main-img {
+        bottom: 105px;
+    }
+
+    .nft-item_one .slider-name {
+        left: auto;
+        right: -140px;
+    }
+
+    .owl-item.big .nft-item_two .main-img {
+        bottom: 45px;
+    }
+
+    .owl-item.big .nft-item_three .main-img {
+        bottom: 115px;
+        right: -95px;
+    }
+
+    .owl-item.big .nft-item_foure .main-img {
+        bottom: 137px;
+        right: -40px;
+    }
+
+    .owl-item.big .nft-item_five .main-img {
+        bottom: 135px;
+        right: -130px;
+    }
+
+    .owl-item.big .nft-item_six .main-img {
+        bottom: 138px;
+        right: -83px;
+    }
+
+    .owl-item.big .nft-item_seven .main-img {
+        bottom: 140px;
+    }
+
+    .owl-item.big .nft-item {
+        transform: translateX(-45px);
+    }
+
+    .owl-item.big .nft-item_six {
+        transform: translateX(-0px) !important;
+    }
+    .first-screen__img>img, .first-screen__img{
+        height: 400px;
+    }
+    .fs-descript br{
+        display: none;
+    }
+    .first-screen__info{
+        margin-bottom: 20px;
+    }
+    .collection{
+        padding-top: 100px;
+    }
+    .buy-section .buy-row{
+        margin-top: 35px;
+    }
+    .medium-left .nft-item {
+        transform: translateX(-70px) scale(0.6) !important
+    }
+    .medium-right .nft-item {
+        transform: translateX(30px) scale(0.6) !important
+
+    }
+    .owl-item.big .blue-list{
+        transition-duration: 0s !important;
+    }
+}
+
+@media(max-width: 375px) {
+    .container {
+        width: 100% !important;
+    }
+
+    .blue-list li {
+        font-size: 14px;
+    }
+
+    .swiper-slide .blue-list {
+        left: 30%;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1700px){
+    h1{
+        font-size: 48px;
+        line-height: 60px;
+    }
+    .fs-logo > img{
+        display: none;
+    }
+    .fs__triggers {
+        margin-top: 0;
+        gap: 0.5rem 1rem;
+    }
+    .first-screen__row{
+        display: grid;
+        grid-template-columns: repeat(10,1fr);
+        grid-template-rows: repeat(10,1fr);
+    }
+    .first-screen__img{
+        grid-column: 1/span 6;
+        grid-row: 1/span 9;
+        width: 100%;
+        height: 100%;
+    }
+    .first-screen__info{
+        grid-column: 7/span 3;
+        grid-row: 1/span 9;
+        display: flex;
+        flex-direction: column;
+        padding-right: 0;
+    }
+    .first-screen__info{
+        padding-top: 0;
+    }
+    .first-screen__img > img{
+        object-fit: cover;
+        width: 82%;
+        height: 100%;
+        bottom: 0;
+     /*   margin-top: -5vh;
+        height: 85%; */
+    }
+    .first-screen{
+        padding-top: 80px;
+        box-sizing: border-box;
+    }
+    .first-screen .container{
+        width: 100%;
+        min-width: 100%;
+        margin: 0;
+    }
+    .first-screen .fs__btn {
+        margin-top:0;
+    }
+    .first-screen__info{
+        margin-top: 18px;
+    }
+    .first-screen__info .fs__btn{
+
+    }
+    .privileges .privileges__img{
+        margin-top: 0;
+    }
+    .privileges .before-img{
+        top: 67px;
+    }
+    .nft-item_one .slider-name{
+
+    }
+    .fs__btn h3{
+        font-size: 24px;
+    }
+    .advantages .collection__info{
+       padding-right: 0;
+    }
+    .collection__info h2{
+        width: 120%;
+    }
+    .privileges__img img{
+        object-fit: cover;
+        width: 100%;
+    }
+    .title_rus{
+        font-size: 35px;
+        margin-left: -4rem;
+    }
+    .opportunity .privileges__img img{
+        object-fit: cover;
+        width: 125% !important;
+        margin-top: -35px;
+    }
+}
